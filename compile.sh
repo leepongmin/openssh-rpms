@@ -67,7 +67,7 @@ GUESS_DIST() {
 
 BUILD_RPM() {
 
-	source version.env
+	source ./version.env
 	local SOURCES=( $OPENSSHSRC \
 		  $OPENSSLSRC \
 		  $ASKPASSSRC \
